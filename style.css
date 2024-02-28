@@ -11,7 +11,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-around;
-    padding: 12px;
+    padding: 16px;
 }
 
 .header .logo {
@@ -23,6 +23,7 @@ body {
 .header .header-links {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 300;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,4 +32,46 @@ body {
 
 .header .header-links a {
     text-decoration: none;
+}
+
+.header .header-links a:active,
+.header .header-links a:visited {
+    color: #e5e7eb;
+}
+
+.hero {
+    height: 480px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 600;
+    color: #f9faf8;
+    width: 350px;
+    line-height: 55px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+    width: 420px;
+}
+
+.hero-btn {
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.hero-img {
+    height: 280px;
+    width: 500px;
 }
